@@ -1,51 +1,54 @@
-Orbit Simulation in Python
-This is a Python-based simulation of a simplified planetary system using Pygame. The program models the motion of celestial bodies based on gravitational forces, simulating their orbits in a visually interactive way.
+# 🌌 Orbit Simulation in Python
 
-Features
-Simulates the Sun and four planets: Earth, Mars, Mercury, and Venus.
-Each planet's motion is calculated using Newton's laws of gravity.
-Realistic orbital paths are traced on the screen.
-Displays the distance of each planet from the Sun in real-time.
-Technologies Used
-Python: Core programming language.
-Pygame: For graphics and rendering.
+![Python](https://img.shields.io/badge/Python-3.x-blue) ![Pygame](https://img.shields.io/badge/Pygame-2.x-green)
 
+🚀 **Orbit Simulation** is a Python project that visualizes the gravitational motion of planets around the Sun using **Newton's Law of Gravitation**. This project is powered by **Pygame** for rendering planetary motion and their orbits.
 
-How It Works:
-Each planet is represented as an object with properties like mass, position, velocity, and color.
+---
 
-The gravitational attraction between planets is calculated using the formula:
-𝐹 =𝐺⋅𝑚1⋅𝑚2/𝑟^2
-​
- 
-Planets are updated frame-by-frame to simulate motion over time.
-The simulation uses a scaling factor to map astronomical units (AU) into screen pixels.
+## 🌟 Features
+✨ Real-time simulation of planetary orbits.  
+✨ Includes the Sun, Earth, Mars, Mercury, and Venus.  
+✨ Displays the distance of each planet from the Sun.  
+✨ Accurate physics with gravitational calculations.
 
-Getting Started
-Prerequisites
-Python 3.x installed on your system.
-Pygame library installed. You can install it with:
+---
 
-pip install pygame
-Running the Simulation
-Clone this repository:
+## 📸 Preview
 
-git clone https://github.com/your-username/orbit-simulation.git
-cd orbit-simulation
+<img src="https://github.com/user-attachments/assets/7afe5791-b8b9-4bdb-9f88-0930f4902666" width="400" height = "300" />
 
-Run the script:
-python orbit_simulation.py
-Watch as the planets orbit around the Sun in real-time!
+---
 
-Visual Preview
-The simulation features a black background with colored orbits and planets:
+## 🛠️ Technologies Used
+- **Python 3.x**: Programming language.
+- **Pygame**: Graphics library for rendering.
 
-Yellow: Sun
-Blue: Earth
-Red: Mars
-Dark Grey: Mercury
-White: Venus
-Future Improvements
-Add more celestial bodies like moons or asteroids.
-Implement collision detection.
-Introduce a user interface for dynamic input and control.
+---
+
+## 🚀 How It Works
+1. Each celestial body is modeled with properties like:
+   - **Mass**: Determines gravitational pull.
+   - **Position** and **velocity**: Dictate motion.
+   - **Color**: For visual distinction.
+2. Gravitational forces are calculated with:
+   \[
+   F = \frac{G \cdot m_1 \cdot m_2}{r^2}
+   \]
+   where:
+   - \( F \): Gravitational force.
+   - \( G \): Gravitational constant.
+   - \( m_1, m_2 \): Masses of two objects.
+   - \( r \): Distance between them.
+3. The simulation updates positions frame-by-frame for smooth orbital motion.
+
+---
+
+## 🌀 How to Run the Simulation
+
+### Prerequisites
+- Python 3.x installed on your system.
+- Install **Pygame**:
+  ```bash
+  pip install pygame
+
