@@ -17,6 +17,7 @@
 ## 📸 Preview
 
 <img src="https://github.com/user-attachments/assets/7afe5791-b8b9-4bdb-9f88-0930f4902666" width="400" height = "300" />
+<div><strong>Figure 1:</strong> Orbit Simulation</div>
 
 ---
 
@@ -33,7 +34,7 @@
    - **Color**: For visual distinction.
 2. Gravitational forces are calculated with:
    \[
-   F = \frac{G \cdot m_1 \cdot m_2}{r^2}
+   F = {G * m_1 * m_2}/{r^2}
    \]
    where:
    - \( F \): Gravitational force.
